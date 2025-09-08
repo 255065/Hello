@@ -1,0 +1,6 @@
+{
+    "clangd.arguments": ["--clang-tidy"],
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true
+}
