@@ -7,9 +7,9 @@
             "command": "clang",
             "args": [
                 "@compile_flags.txt",
-                "main.c",
+                "./src/main.c",
                 "-o",
-                "Main"
+                "main"
             ],
             "options": {
                 "cwd": "${workspaceFolder}/25ws/cprog/code/Hello"
@@ -29,7 +29,7 @@
         {
             "label": "run",
             "type": "shell",
-            "command": "./Main",
+            "command": "./main",
             "options": {
                 "cwd": "${workspaceFolder}/25ws/cprog/code/Hello"
             },
